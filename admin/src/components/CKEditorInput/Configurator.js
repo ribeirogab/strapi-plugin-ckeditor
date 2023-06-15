@@ -34,20 +34,20 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.basicStyles.Italic,
       window.CKEditor5.essentials.Essentials,
       window.CKEditor5.heading.Heading,
-      window.CKEditor5.image.Image,
-      window.CKEditor5.image.ImageCaption,
-      window.CKEditor5.image.ImageStyle,
-      window.CKEditor5.image.ImageToolbar,
-      window.CKEditor5.image.ImageUpload,
+      // window.CKEditor5.image.Image,
+      // window.CKEditor5.image.ImageCaption,
+      // window.CKEditor5.image.ImageStyle,
+      // window.CKEditor5.image.ImageToolbar,
+      // window.CKEditor5.image.ImageUpload,
       window.CKEditor5.indent.Indent,
       window.CKEditor5.link.Link,
       window.CKEditor5.list.List,
       window.CKEditor5.paragraph.Paragraph,
       window.CKEditor5.pasteFromOffice.PasteFromOffice,
-      window.CKEditor5.table.Table,
-      window.CKEditor5.table.TableToolbar,
-      window.CKEditor5.table.TableColumnResize,
-      window.CKEditor5.table.TableCaption,
+      // window.CKEditor5.table.Table,
+      // window.CKEditor5.table.TableToolbar,
+      // window.CKEditor5.table.TableColumnResize,
+      // window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       StrapiMediaLib
     ],
@@ -65,31 +65,31 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     heading: {
       options: [
         { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
-        { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
-        { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' },
-        { model: 'heading3', view: 'h3', title: 'Heading 3', class: 'ck-heading_heading3' },
-        { model: 'heading4', view: 'h4', title: 'Heading 4', class: 'ck-heading_heading4' },
+        // { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+        // { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' },
+        // { model: 'heading3', view: 'h3', title: 'Heading 3', class: 'ck-heading_heading3' },
+        // { model: 'heading4', view: 'h4', title: 'Heading 4', class: 'ck-heading_heading4' },
       ]
     },
-    image: {
-      toolbar: [
-        'imageStyle:inline',
-        'imageStyle:block',
-        'imageStyle:side',
-        '|',
-        'toggleImageCaption',
-        'imageTextAlternative'
-      ]
-    },
-    table: {
-      contentToolbar: [
-        'tableColumn',
-        'tableRow',
-        'mergeTableCells',
-        '|',
-        'toggleTableCaption'
-      ]
-    },
+    // image: {
+    //   toolbar: [
+    //     'imageStyle:inline',
+    //     'imageStyle:block',
+    //     'imageStyle:side',
+    //     '|',
+    //     'toggleImageCaption',
+    //     'imageTextAlternative'
+    //   ]
+    // },
+    // table: {
+    //   contentToolbar: [
+    //     'tableColumn',
+    //     'tableRow',
+    //     'mergeTableCells',
+    //     '|',
+    //     'toggleTableCaption'
+    //   ]
+    // },
   },
 
   standard: {
@@ -230,7 +230,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent',
       ],
       shouldNotGroupWhenFull: true
     },
