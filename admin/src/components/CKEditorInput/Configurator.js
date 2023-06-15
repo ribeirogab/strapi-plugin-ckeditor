@@ -58,7 +58,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'bold', 'italic',
       '|',
-      'link', 'strapiMediaLib', 'insertTable',
+      'link',
       '|',
       'bulletedList', 'numberedList'
     ],
